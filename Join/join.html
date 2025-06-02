@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOIN</title>
+    <link rel="stylesheet" href="join.css">
+    <script defer src="join.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>회원가입</h1>
+        </div>
+        <div class="Form">
+            <div class="idContainer">
+                <div class="idForm">
+                    <label for="userId">아이디</label>
+                    <input type="text" id="userId">
+                </div>
+                <button onclick="checkId();">아이디 중복 검사</button>
+            </div>
+
+            <div class="pwdContainer">
+                <div class="pwdForm">
+                    <label for="userPwd">비밀번호</label>
+                    <input type="password" id="userPwd">
+                </div>
+                <div class="enter" onclick="enter();">가입하기</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
